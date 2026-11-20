@@ -1,0 +1,1493 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>韩国伦理电影_影评专题_深度解读影像叙事 - 邻街映像馆</title>
+<meta name="description" content="邻街映像馆是专注韩国伦理电影与邻家叙事的影像品牌官网，提供影评专题、导演访谈、创作者社区与精品内容解读，以专业视角陪伴每一位观众理解真实人性。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f172a'/%3E%3Ccircle cx='32' cy='32' r='16' fill='none' stroke='%23f59e0b' stroke-width='3'/%3E%3Cpath d='M27 24l14 8-14 8z' fill='%23f59e0b'/%3E%3C/svg%3E">
+<style>
+  :root{
+    --nj-ink:#0f172a;
+    --nj-ink-2:#1e293b;
+    --nj-paper:#f6f7fb;
+    --nj-card:#ffffff;
+    --nj-amber:#f59e0b;
+    --nj-amber-soft:#fde7c4;
+    --nj-rose:#e5536b;
+    --nj-line:#e2e6ef;
+    --nj-text:#20293a;
+    --nj-muted:#6a7589;
+    --nj-radius:16px;
+    --nj-shadow:0 10px 30px rgba(15,23,42,.08);
+    --nj-shadow-hover:0 18px 44px rgba(15,23,42,.16);
+    --nj-max:1180px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{
+    font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;
+    background:var(--nj-paper);
+    color:var(--nj-text);
+    line-height:1.75;
+    -webkit-font-smoothing:antialiased;
+  }
+  img{display:block;max-width:100%}
+  a{color:inherit;text-decoration:none}
+  ul{list-style:none}
+  button{font-family:inherit;cursor:pointer;border:none;background:none}
+  section{scroll-margin-top:132px}
+  .nj-wrap{max-width:var(--nj-max);margin:0 auto;padding:0 22px}
+
+  /* ===== 吸顶：公告条 + 页头 ===== */
+  .nj-sticky{position:sticky;top:0;z-index:60}
+  .nj-announce{
+    background:linear-gradient(90deg,#1e293b,#0f172a 55%,#3b2a12);
+    color:#fde7c4;
+    font-size:13.5px;
+    letter-spacing:.2px;
+  }
+  .nj-announce .nj-wrap{
+    display:flex;align-items:center;gap:12px;
+    padding-top:9px;padding-bottom:9px;
+    overflow:hidden;
+  }
+  .nj-announce-tag{
+    flex:none;background:var(--nj-amber);color:#1a1206;font-weight:700;
+    font-size:12px;padding:2px 9px;border-radius:999px;
+  }
+  .nj-announce-track{
+    display:flex;gap:34px;white-space:nowrap;
+    animation:nj-marquee 26s linear infinite;
+  }
+  .nj-announce-track:hover{animation-play-state:paused}
+  @keyframes nj-marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+  .nj-announce-track span::before{content:"◆";color:var(--nj-amber);margin-right:9px;font-size:10px}
+
+  .nj-header{
+    background:rgba(255,255,255,.94);
+    backdrop-filter:blur(12px);
+    border-bottom:1px solid var(--nj-line);
+    box-shadow:0 4px 18px rgba(15,23,42,.05);
+  }
+  .nj-header-inner{
+    display:flex;align-items:center;gap:22px;
+    padding-top:14px;padding-bottom:14px;
+  }
+  .nj-logo{display:flex;align-items:center;gap:11px;flex:none}
+  .nj-logo-mark{
+    width:42px;height:42px;border-radius:13px;flex:none;
+    background:linear-gradient(140deg,#0f172a,#26334d);
+    display:grid;place-items:center;
+    box-shadow:inset 0 0 0 1px rgba(245,158,11,.5);
+  }
+  .nj-logo-mark svg{width:22px;height:22px}
+  .nj-logo-text b{font-size:18px;letter-spacing:1px;display:block;line-height:1.25}
+  .nj-logo-text small{font-size:11px;color:var(--nj-muted);letter-spacing:2.4px}
+
+  .nj-nav{display:flex;gap:4px;margin-left:auto;flex-wrap:wrap}
+  .nj-nav a{
+    padding:8px 13px;border-radius:9px;font-size:14.5px;color:var(--nj-ink-2);
+    transition:.22s;position:relative;
+  }
+  .nj-nav a:hover{background:var(--nj-amber-soft);color:#7a4a03}
+
+  .nj-search{
+    display:flex;align-items:center;gap:8px;flex:none;
+    background:var(--nj-paper);border:1px solid var(--nj-line);
+    border-radius:999px;padding:6px 8px 6px 14px;
+    transition:.22s;
+  }
+  .nj-search:focus-within{border-color:var(--nj-amber);box-shadow:0 0 0 3px rgba(245,158,11,.16)}
+  .nj-search input{
+    border:none;background:none;outline:none;width:150px;
+    font-size:14px;color:var(--nj-text);
+  }
+  .nj-search button{
+    background:var(--nj-ink);color:#fff;border-radius:999px;
+    padding:6px 14px;font-size:13px;transition:.22s;
+  }
+  .nj-search button:hover{background:var(--nj-amber);color:#1a1206}
+  .nj-search-tip{
+    position:absolute;margin-top:44px;background:#fff;border:1px solid var(--nj-line);
+    border-radius:12px;box-shadow:var(--nj-shadow);padding:8px;font-size:13px;
+    color:var(--nj-muted);display:none;max-width:260px;z-index:70;
+  }
+  .nj-search-tip.show{display:block}
+  .nj-search-wrap{position:relative}
+
+  .nj-burger{
+    display:none;width:42px;height:42px;border-radius:11px;
+    border:1px solid var(--nj-line);background:#fff;
+    align-items:center;justify-content:center;
+  }
+  .nj-burger span{display:block;width:19px;height:2px;background:var(--nj-ink);position:relative}
+  .nj-burger span::before,.nj-burger span::after{
+    content:"";position:absolute;left:0;width:19px;height:2px;background:var(--nj-ink);
+  }
+  .nj-burger span::before{top:-6px}
+  .nj-burger span::after{top:6px}
+
+  /* ===== 首屏 ===== */
+  .nj-hero{
+    background:
+      radial-gradient(900px 420px at 88% -8%,rgba(245,158,11,.22),transparent 62%),
+      radial-gradient(700px 440px at 0% 110%,rgba(229,83,107,.16),transparent 60%),
+      #0f172a;
+    color:#eaf0fb;
+    padding:66px 0 74px;
+    position:relative;
+    overflow:hidden;
+  }
+  .nj-hero::after{
+    content:"";position:absolute;inset:0;pointer-events:none;
+    background-image:radial-gradient(rgba(255,255,255,.07) 1px,transparent 1px);
+    background-size:26px 26px;opacity:.5;
+  }
+  .nj-hero-grid{
+    display:grid;grid-template-columns:1.05fr .95fr;gap:52px;align-items:center;
+    position:relative;z-index:2;
+  }
+  .nj-hero-badge{
+    display:inline-flex;align-items:center;gap:8px;
+    background:rgba(245,158,11,.15);border:1px solid rgba(245,158,11,.45);
+    color:#fbbf24;font-size:13px;padding:5px 14px;border-radius:999px;
+    letter-spacing:.5px;margin-bottom:22px;
+  }
+  .nj-hero-badge i{width:7px;height:7px;border-radius:50%;background:#fbbf24;display:block;animation:nj-pulse 1.9s infinite}
+  @keyframes nj-pulse{0%,100%{opacity:1}50%{opacity:.25}}
+  .nj-hero h1{
+    font-size:clamp(34px,4.6vw,55px);line-height:1.18;letter-spacing:1px;
+    margin-bottom:18px;
+  }
+  .nj-hero h1 em{
+    font-style:normal;color:var(--nj-amber);
+    background:linear-gradient(180deg,transparent 66%,rgba(245,158,11,.28) 66%);
+  }
+  .nj-hero-sub{
+    color:#c2cde0;font-size:16px;max-width:560px;margin-bottom:26px;
+  }
+  .nj-hero-actions{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:34px}
+  .nj-btn{
+    display:inline-flex;align-items:center;gap:8px;
+    padding:12px 24px;border-radius:12px;font-size:15px;font-weight:600;
+    transition:.24s;border:1px solid transparent;
+  }
+  .nj-btn-primary{background:var(--nj-amber);color:#1a1206}
+  .nj-btn-primary:hover{background:#fbbf24;transform:translateY(-2px);box-shadow:0 12px 26px rgba(245,158,11,.34)}
+  .nj-btn-ghost{border-color:rgba(255,255,255,.28);color:#e7edf9}
+  .nj-btn-ghost:hover{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.5)}
+
+  .nj-hero-stats{display:flex;gap:36px;flex-wrap:wrap}
+  .nj-hero-stats b{display:block;font-size:27px;color:#fff;letter-spacing:.5px}
+  .nj-hero-stats span{font-size:13px;color:#93a2bd}
+
+  .nj-hero-visual{position:relative}
+  .nj-hero-frame{
+    border-radius:20px;overflow:hidden;
+    box-shadow:0 30px 70px rgba(0,0,0,.5);
+    border:1px solid rgba(255,255,255,.12);
+    position:relative;
+  }
+  .nj-hero-frame img{width:100%;height:auto;aspect-ratio:16/10;object-fit:cover}
+  .nj-hero-play{
+    position:absolute;inset:0;display:grid;place-items:center;
+    background:linear-gradient(180deg,rgba(15,23,42,.05),rgba(15,23,42,.62));
+  }
+  .nj-hero-play b{
+    width:70px;height:70px;border-radius:50%;background:rgba(245,158,11,.94);
+    display:grid;place-items:center;box-shadow:0 0 0 10px rgba(245,158,11,.22);
+    transition:.24s;
+  }
+  .nj-hero-play b:hover{transform:scale(1.08)}
+  .nj-hero-play b::before{
+    content:"";border-left:20px solid #1a1206;border-top:12px solid transparent;
+    border-bottom:12px solid transparent;margin-left:6px;
+  }
+  .nj-hero-float{
+    position:absolute;left:-18px;bottom:-22px;
+    background:#fff;color:var(--nj-ink);border-radius:14px;
+    padding:14px 18px;box-shadow:var(--nj-shadow);
+    font-size:13px;line-height:1.5;max-width:230px;
+  }
+  .nj-hero-float b{color:var(--nj-rose);font-size:15px}
+  .nj-hero-float small{display:block;color:var(--nj-muted);font-size:12px}
+
+  /* ===== 通用区块标题 ===== */
+  .nj-section{padding:74px 0}
+  .nj-section-head{max-width:760px;margin-bottom:38px}
+  .nj-eyebrow{
+    font-size:12.5px;letter-spacing:3px;color:var(--nj-amber);
+    font-weight:700;display:inline-block;margin-bottom:10px;
+  }
+  .nj-section-head h2{
+    font-size:clamp(24px,3vw,33px);line-height:1.32;letter-spacing:.5px;
+    margin-bottom:12px;
+  }
+  .nj-section-head p{color:var(--nj-muted);font-size:15.5px}
+
+  /* ===== 关键词深度解析 ===== */
+  .nj-about{background:#fff;border-top:1px solid var(--nj-line);border-bottom:1px solid var(--nj-line)}
+  .nj-about-grid{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:start}
+  .nj-about-text p{font-size:15.5px;color:#3b4659;margin-bottom:16px;text-indent:2em}
+  .nj-about-text h3{font-size:18px;margin:24px 0 10px;color:var(--nj-ink)}
+  .nj-about-text h3::before{content:"";display:inline-block;width:5px;height:16px;background:var(--nj-amber);border-radius:3px;margin-right:9px;vertical-align:-2px}
+  .nj-about-list li{
+    font-size:14.5px;color:#3b4659;padding:9px 0 9px 24px;position:relative;
+    border-bottom:1px dashed var(--nj-line);
+  }
+  .nj-about-list li::before{
+    content:"›";position:absolute;left:6px;color:var(--nj-amber);font-weight:700;
+  }
+  .nj-about-aside{
+    background:var(--nj-paper);border-radius:var(--nj-radius);
+    padding:26px;border:1px solid var(--nj-line);position:sticky;top:150px;
+  }
+  .nj-about-aside h4{font-size:16px;margin-bottom:16px;letter-spacing:.5px}
+  .nj-about-aside img{border-radius:12px;margin-bottom:16px;aspect-ratio:16/9;object-fit:cover;width:100%}
+  .nj-about-aside p{font-size:13.5px;color:var(--nj-muted);margin-bottom:16px}
+  .nj-tag-list{display:flex;flex-wrap:wrap;gap:8px}
+  .nj-tag{
+    font-size:12.5px;padding:5px 12px;border-radius:999px;
+    background:#fff;border:1px solid var(--nj-line);color:#4a5568;transition:.2s;
+  }
+  .nj-tag:hover{border-color:var(--nj-amber);color:#7a4a03;background:var(--nj-amber-soft)}
+
+  /* ===== 焦点内容 ===== */
+  .nj-focus-grid{display:grid;grid-template-columns:1.35fr 1fr;gap:24px}
+  .nj-focus-main{
+    border-radius:var(--nj-radius);overflow:hidden;position:relative;
+    box-shadow:var(--nj-shadow);background:#111;transition:.28s;
+  }
+  .nj-focus-main:hover{transform:translateY(-4px);box-shadow:var(--nj-shadow-hover)}
+  .nj-focus-main img{width:100%;aspect-ratio:16/9;object-fit:cover}
+  .nj-cover-mask{
+    position:absolute;inset:0;
+    background:linear-gradient(180deg,rgba(10,15,28,.02) 26%,rgba(10,15,28,.86));
+    display:flex;flex-direction:column;justify-content:flex-end;
+    padding:24px;color:#fff;
+  }
+  .nj-cover-tag{
+    align-self:flex-start;background:var(--nj-amber);color:#1a1206;
+    font-size:12px;font-weight:700;padding:3px 11px;border-radius:999px;margin-bottom:10px;
+  }
+  .nj-cover-mask h3{font-size:21px;line-height:1.4;margin-bottom:8px}
+  .nj-cover-mask p{font-size:13px;color:#cdd6e6;margin-bottom:12px}
+  .nj-cover-meta{display:flex;gap:16px;font-size:12.5px;color:#a9b6cd}
+  .nj-focus-side{display:grid;grid-template-rows:repeat(2,1fr);gap:24px}
+  .nj-focus-mini{
+    display:grid;grid-template-columns:140px 1fr;gap:0;
+    background:#fff;border-radius:var(--nj-radius);overflow:hidden;
+    border:1px solid var(--nj-line);transition:.26s;
+  }
+  .nj-focus-mini:hover{border-color:var(--nj-amber);transform:translateY(-3px);box-shadow:var(--nj-shadow)}
+  .nj-focus-mini img{width:100%;height:100%;object-fit:cover;aspect-ratio:4/3}
+  .nj-focus-mini div{padding:14px 16px;display:flex;flex-direction:column;justify-content:center}
+  .nj-focus-mini h3{font-size:15px;line-height:1.45;margin-bottom:6px}
+  .nj-focus-mini p{font-size:12.5px;color:var(--nj-muted);margin-bottom:8px}
+  .nj-focus-mini span{font-size:12px;color:var(--nj-amber);font-weight:600}
+
+  /* ===== 视频流 ===== */
+  .nj-videos{background:#fff;border-top:1px solid var(--nj-line);border-bottom:1px solid var(--nj-line)}
+  .nj-filter-bar{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:28px}
+  .nj-filter-btn{
+    font-size:13.5px;padding:7px 16px;border-radius:999px;
+    border:1px solid var(--nj-line);background:#fff;color:#4a5568;transition:.2s;
+  }
+  .nj-filter-btn:hover{border-color:var(--nj-amber);color:#7a4a03}
+  .nj-filter-btn.active{background:var(--nj-ink);color:#fff;border-color:var(--nj-ink)}
+  .nj-video-grid{
+    display:grid;grid-template-columns:repeat(3,1fr);gap:22px;
+  }
+  .nj-video-card{
+    background:var(--nj-card);border:1px solid var(--nj-line);
+    border-radius:var(--nj-radius);overflow:hidden;transition:.28s;display:flex;flex-direction:column;
+  }
+  .nj-video-card:hover{transform:translateY(-5px);box-shadow:var(--nj-shadow-hover);border-color:#d3d9e6}
+  .nj-video-thumb{position:relative;overflow:hidden}
+  .nj-video-thumb img{width:100%;aspect-ratio:16/9;object-fit:cover;transition:.5s}
+  .nj-video-card:hover .nj-video-thumb img{transform:scale(1.06)}
+  .nj-video-thumb::after{
+    content:"▶";position:absolute;right:10px;bottom:10px;
+    width:30px;height:30px;border-radius:50%;background:rgba(15,23,42,.72);
+    color:#fff;font-size:11px;display:grid;place-items:center;
+  }
+  .nj-video-body{padding:16px 18px 18px;display:flex;flex-direction:column;flex:1}
+  .nj-video-body h3{font-size:16px;line-height:1.45;margin-bottom:7px}
+  .nj-video-body p{font-size:13px;color:var(--nj-muted);flex:1;margin-bottom:12px}
+  .nj-video-tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
+  .nj-video-tags span{font-size:11.5px;background:var(--nj-paper);color:#5b6678;padding:2px 9px;border-radius:6px}
+  .nj-video-foot{
+    display:flex;align-items:center;justify-content:space-between;
+    padding-top:12px;border-top:1px dashed var(--nj-line);font-size:12.5px;color:var(--nj-muted);
+  }
+  .nj-author{display:flex;align-items:center;gap:7px}
+  .nj-avatar{
+    width:24px;height:24px;border-radius:50%;display:grid;place-items:center;
+    font-size:11px;color:#fff;font-weight:600;flex:none;
+  }
+  .nj-actions{display:flex;gap:8px}
+  .nj-action-btn{
+    display:inline-flex;align-items:center;gap:4px;font-size:12.5px;color:var(--nj-muted);
+    transition:.18s;padding:3px 5px;border-radius:6px;
+  }
+  .nj-action-btn:hover{background:var(--nj-amber-soft);color:#7a4a03}
+  .nj-action-btn.liked{color:var(--nj-rose);font-weight:700}
+
+  /* ===== 专题企划 ===== */
+  .nj-topics-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+  .nj-topic-card{
+    border-radius:var(--nj-radius);overflow:hidden;position:relative;
+    min-height:250px;display:flex;flex-direction:column;justify-content:flex-end;
+    padding:20px;color:#fff;transition:.28s;
+  }
+  .nj-topic-card:hover{transform:translateY(-5px);box-shadow:var(--nj-shadow-hover)}
+  .nj-topic-card img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}
+  .nj-topic-card::after{
+    content:"";position:absolute;inset:0;z-index:1;
+    background:linear-gradient(180deg,rgba(10,15,28,.06),rgba(10,15,28,.9));
+  }
+  .nj-topic-content{position:relative;z-index:2}
+  .nj-topic-content small{font-size:11.5px;letter-spacing:1.6px;color:#fbbf24;font-weight:700}
+  .nj-topic-content h3{font-size:18.5px;line-height:1.4;margin:7px 0 8px}
+  .nj-topic-content p{font-size:12.5px;color:#c8d2e3;margin-bottom:10px}
+  .nj-topic-status{font-size:11.5px;padding:3px 10px;border-radius:999px;background:rgba(245,158,11,.2);border:1px solid rgba(245,158,11,.55);color:#fbbf24}
+
+  /* ===== 创作者 ===== */
+  .nj-creators{background:#fff;border-top:1px solid var(--nj-line);border-bottom:1px solid var(--nj-line)}
+  .nj-creator-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+  .nj-creator-card{
+    text-align:center;background:var(--nj-paper);border:1px solid var(--nj-line);
+    border-radius:var(--nj-radius);padding:26px 18px;transition:.26s;
+  }
+  .nj-creator-card:hover{background:#fff;transform:translateY(-4px);box-shadow:var(--nj-shadow)}
+  .nj-creator-avatar{
+    width:64px;height:64px;border-radius:50%;margin:0 auto 14px;
+    display:grid;place-items:center;font-size:24px;font-weight:700;color:#fff;
+  }
+  .nj-creator-card h3{font-size:16px;margin-bottom:4px}
+  .nj-creator-card .nj-field{font-size:12.5px;color:var(--nj-amber);font-weight:600;margin-bottom:10px}
+  .nj-creator-card p{font-size:12.5px;color:var(--nj-muted);min-height:56px;margin-bottom:12px}
+  .nj-creator-nums{display:flex;justify-content:center;gap:18px;font-size:12px;color:#5b6678;border-top:1px dashed var(--nj-line);padding-top:12px}
+  .nj-creator-nums b{display:block;color:var(--nj-ink);font-size:14px}
+  .nj-creator-more{
+    display:block;margin:16px auto 0;font-size:12.5px;color:var(--nj-amber);
+    font-weight:600;padding:5px 14px;border-radius:999px;border:1px solid var(--nj-amber-soft);
+    transition:.2s;
+  }
+  .nj-creator-more:hover{background:var(--nj-amber-soft)}
+
+  /* ===== 用户评价 ===== */
+  .nj-comments-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+  .nj-comment{
+    background:#fff;border:1px solid var(--nj-line);border-radius:var(--nj-radius);
+    padding:20px;position:relative;transition:.24s;
+  }
+  .nj-comment:hover{border-color:#cdd5e4;box-shadow:var(--nj-shadow)}
+  .nj-comment::before{
+    content:"“";position:absolute;top:4px;right:16px;font-size:46px;
+    color:#eef1f7;font-family:Georgia,serif;line-height:1;
+  }
+  .nj-comment-head{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+  .nj-comment-head b{font-size:13.5px;display:block}
+  .nj-comment-head small{font-size:11.5px;color:var(--nj-muted)}
+  .nj-comment p{font-size:13.5px;color:#46536b;position:relative;z-index:1}
+  .nj-comment-stars{color:var(--nj-amber);font-size:12.5px;letter-spacing:2px;margin-top:10px}
+
+  /* ===== 企业动态 ===== */
+  .nj-timeline{position:relative;padding-left:26px}
+  .nj-timeline::before{
+    content:"";position:absolute;left:7px;top:6px;bottom:6px;width:2px;
+    background:linear-gradient(180deg,var(--nj-amber),#e2e6ef);
+  }
+  .nj-timeline-item{position:relative;padding:0 0 26px 12px}
+  .nj-timeline-item::before{
+    content:"";position:absolute;left:-25px;top:7px;width:15px;height:15px;border-radius:50%;
+    background:#fff;border:3px solid var(--nj-amber);
+  }
+  .nj-timeline-item time{font-size:12.5px;color:var(--nj-amber);font-weight:700;letter-spacing:.6px}
+  .nj-timeline-item h3{font-size:15.5px;margin:4px 0 5px}
+  .nj-timeline-item p{font-size:13px;color:var(--nj-muted)}
+  .nj-dyn-grid{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:start}
+  .nj-partner-wall{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+  .nj-partner{
+    height:64px;border-radius:12px;background:#fff;border:1px solid var(--nj-line);
+    display:grid;place-items:center;font-size:13px;color:#5b6678;font-weight:600;
+    letter-spacing:.5px;transition:.22s;text-align:center;padding:0 8px;
+  }
+  .nj-partner:hover{border-color:var(--nj-amber);color:#7a4a03;transform:translateY(-2px)}
+
+  /* ===== FAQ ===== */
+  .nj-faq-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px 26px}
+  .nj-faq-item{
+    background:#fff;border:1px solid var(--nj-line);border-radius:12px;
+    padding:14px 18px;transition:.22s;
+  }
+  .nj-faq-item[open]{border-color:var(--nj-amber);box-shadow:0 6px 20px rgba(245,158,11,.1)}
+  .nj-faq-item summary{
+    font-size:14.5px;font-weight:600;cursor:pointer;list-style:none;
+    display:flex;align-items:center;justify-content:space-between;gap:10px;
+  }
+  .nj-faq-item summary::-webkit-details-marker{display:none}
+  .nj-faq-item summary::after{content:"+";color:var(--nj-amber);font-size:19px;font-weight:400;line-height:1;transition:.2s}
+  .nj-faq-item[open] summary::after{content:"−"}
+  .nj-faq-item p{font-size:13.5px;color:var(--nj-muted);margin-top:10px;padding-top:10px;border-top:1px dashed var(--nj-line)}
+
+  /* ===== 联系 ===== */
+  .nj-contact{background:linear-gradient(135deg,#0f172a,#1d2b45);color:#e7edf9}
+  .nj-contact-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:46px;align-items:center}
+  .nj-contact h2{font-size:clamp(24px,3vw,32px);margin-bottom:14px;line-height:1.35}
+  .nj-contact p{color:#a9b6cd;font-size:15px;margin-bottom:24px}
+  .nj-contact-info{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:26px}
+  .nj-contact-info div{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.13);border-radius:12px;padding:14px 16px}
+  .nj-contact-info b{display:block;font-size:12px;color:#93a2bd;letter-spacing:1px;margin-bottom:4px}
+  .nj-contact-info span{font-size:14.5px;color:#fff}
+  .nj-contact-card{
+    background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.15);
+    border-radius:var(--nj-radius);padding:26px;
+  }
+  .nj-contact-card h3{font-size:17px;margin-bottom:8px}
+  .nj-contact-card p{font-size:13px;color:#a9b6cd;margin-bottom:16px}
+  .nj-input{
+    width:100%;padding:11px 14px;border-radius:10px;margin-bottom:12px;
+    border:1px solid rgba(255,255,255,.2);background:rgba(255,255,255,.06);
+    color:#fff;font-size:14px;outline:none;transition:.2s;font-family:inherit;
+  }
+  .nj-input::placeholder{color:#8593ad}
+  .nj-input:focus{border-color:var(--nj-amber);background:rgba(255,255,255,.1)}
+
+  /* ===== 页脚 ===== */
+  .nj-footer{background:#0b1322;color:#8d9ab2;padding:48px 0 24px;font-size:13.5px}
+  .nj-footer-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:34px;margin-bottom:32px}
+  .nj-footer h4{color:#e7edf9;font-size:14.5px;margin-bottom:14px;letter-spacing:.6px}
+  .nj-footer-grid li{margin-bottom:9px}
+  .nj-footer-grid a{transition:.2s}
+  .nj-footer-grid a:hover{color:var(--nj-amber)}
+  .nj-footer-brand p{line-height:1.85;margin-top:12px}
+  .nj-footer-bottom{
+    border-top:1px solid rgba(255,255,255,.1);padding-top:18px;
+    display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;font-size:12.5px;color:#67748e;
+  }
+
+  /* ===== 回到顶部 / Toast ===== */
+  .nj-top-btn{
+    position:fixed;right:22px;bottom:26px;width:46px;height:46px;border-radius:14px;
+    background:var(--nj-ink);color:#fff;display:grid;place-items:center;
+    box-shadow:var(--nj-shadow);opacity:0;visibility:hidden;transform:translateY(12px);
+    transition:.28s;z-index:55;
+  }
+  .nj-top-btn.show{opacity:1;visibility:visible;transform:translateY(0)}
+  .nj-top-btn:hover{background:var(--nj-amber);color:#1a1206}
+
+  .nj-toast{
+    position:fixed;left:50%;bottom:32px;transform:translate(-50%,26px);
+    background:var(--nj-ink);color:#fff;padding:11px 22px;border-radius:999px;
+    font-size:13.5px;box-shadow:var(--nj-shadow);opacity:0;visibility:hidden;
+    transition:.3s;z-index:80;white-space:nowrap;
+  }
+  .nj-toast.show{opacity:1;visibility:visible;transform:translate(-50%,0)}
+
+  /* ===== 弹窗 ===== */
+  .nj-modal{
+    position:fixed;inset:0;z-index:90;display:none;
+    align-items:center;justify-content:center;padding:20px;
+    background:rgba(9,14,26,.6);backdrop-filter:blur(4px);
+  }
+  .nj-modal.show{display:flex}
+  .nj-modal-box{
+    background:#fff;border-radius:18px;max-width:460px;width:100%;
+    padding:28px;box-shadow:0 30px 70px rgba(0,0,0,.35);
+    animation:nj-pop .26s ease;
+  }
+  @keyframes nj-pop{from{transform:scale(.94);opacity:0}to{transform:scale(1);opacity:1}}
+  .nj-modal-box h3{font-size:19px;margin-bottom:8px}
+  .nj-modal-box p{font-size:14px;color:var(--nj-muted);margin-bottom:18px}
+  .nj-modal-box .nj-input{background:var(--nj-paper);border-color:var(--nj-line);color:var(--nj-text);margin-bottom:12px}
+  .nj-modal-box .nj-input::placeholder{color:#98a3b6}
+  .nj-modal-actions{display:flex;gap:10px;justify-content:flex-end}
+  .nj-modal-close{
+    position:absolute;top:14px;right:16px;font-size:22px;color:var(--nj-muted);
+    width:32px;height:32px;border-radius:8px;display:grid;place-items:center;
+  }
+  .nj-modal-close:hover{background:var(--nj-paper);color:var(--nj-ink)}
+  .nj-modal-inner{position:relative}
+
+  /* ===== 响应式 ===== */
+  @media(max-width:1024px){
+    .nj-hero-grid{grid-template-columns:1fr;gap:40px}
+    .nj-about-grid,.nj-dyn-grid,.nj-contact-grid{grid-template-columns:1fr}
+    .nj-about-aside{position:static}
+    .nj-video-grid{grid-template-columns:repeat(2,1fr)}
+    .nj-topics-grid{grid-template-columns:repeat(2,1fr)}
+    .nj-creator-grid{grid-template-columns:repeat(2,1fr)}
+    .nj-comments-grid{grid-template-columns:repeat(2,1fr)}
+    .nj-footer-grid{grid-template-columns:1fr 1fr}
+    .nj-focus-grid{grid-template-columns:1fr}
+  }
+  @media(max-width:840px){
+    .nj-nav{
+      display:none;position:absolute;left:0;right:0;top:100%;
+      background:#fff;border-bottom:1px solid var(--nj-line);
+      flex-direction:column;padding:12px;gap:4px;
+      box-shadow:0 16px 26px rgba(15,23,42,.1);
+    }
+    .nj-nav.open{display:flex}
+    .nj-nav a{padding:11px 14px}
+    .nj-header-inner{position:relative}
+    .nj-burger{display:flex;margin-left:auto}
+    .nj-search{margin-left:0}
+    section{scroll-margin-top:150px}
+  }
+  @media(max-width:680px){
+    .nj-hero{padding:44px 0 56px}
+    .nj-section{padding:52px 0}
+    .nj-video-grid,.nj-topics-grid,.nj-creator-grid,.nj-comments-grid,.nj-faq-grid{grid-template-columns:1fr}
+    .nj-focus-mini{grid-template-columns:120px 1fr}
+    .nj-search input{width:110px}
+    .nj-footer-grid{grid-template-columns:1fr}
+    .nj-hero-float{position:static;margin-top:14px;max-width:none}
+    .nj-hero-stats{gap:22px}
+    .nj-contact-info{grid-template-columns:1fr}
+    .nj-filter-bar{gap:6px}
+    .nj-filter-btn{font-size:12.5px;padding:6px 12px}
+    .nj-announce-track{gap:22px}
+  }
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<div class="nj-sticky">
+  <div class="nj-announce">
+    <div class="nj-wrap">
+      <span class="nj-announce-tag">官方发布</span>
+      <div class="nj-announce-track">
+        <span>《邻街叙事·第二季》10月28日上线，六位导演带来六段邻里关系影像</span>
+        <span>「邻里之间」主题征稿开启，上传作品可参与年度口碑评选</span>
+        <span>品牌官方出品《门与窗》导演手记已更新至第四期</span>
+        <span>2026年度创作者扶持计划开始报名，欢迎持续运营的原创作者</span>
+        <span>《邻街叙事·第二季》10月28日上线，六位导演带来六段邻里关系影像</span>
+        <span>「邻里之间」主题征稿开启，上传作品可参与年度口碑评选</span>
+        <span>品牌官方出品《门与窗》导演手记已更新至第四期</span>
+        <span>2026年度创作者扶持计划开始报名，欢迎持续运营的原创作者</span>
+      </div>
+    </div>
+  </div>
+
+  <header class="nj-header">
+    <div class="nj-wrap nj-header-inner">
+      <a href="#nj-top" class="nj-logo" aria-label="邻街映像馆官网首页">
+        <span class="nj-logo-mark">
+          <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8" stroke="#f59e0b" stroke-width="1.8"/><path d="M10 8.6l6 3.4-6 3.4z" fill="#f59e0b"/></svg>
+        </span>
+        <span class="nj-logo-text">
+          <b>邻街映像馆</b>
+          <small>NEIGHBOR FILM</small>
+        </span>
+      </a>
+
+      <nav class="nj-nav" id="nj-nav">
+        <a href="#nj-focus">视频焦点</a>
+        <a href="#nj-about">品牌解读</a>
+        <a href="#nj-videos">精品内容</a>
+        <a href="#nj-topics">专题企划</a>
+        <a href="#nj-creators">创作者</a>
+        <a href="#nj-dynamics">企业动态</a>
+        <a href="#nj-contact">联系我们</a>
+      </nav>
+
+      <div class="nj-search-wrap">
+        <form class="nj-search" id="nj-search-form" role="search">
+          <input type="text" id="nj-search-input" placeholder="搜索影片、导演、话题" aria-label="站内搜索">
+          <button type="submit">搜索</button>
+        </form>
+        <div class="nj-search-tip" id="nj-search-tip"></div>
+      </div>
+
+      <button class="nj-burger" id="nj-burger" aria-label="展开导航菜单" aria-expanded="false">
+        <span></span>
+      </button>
+    </div>
+  </header>
+</div>
+
+<main id="nj-top">
+
+  <!-- 首屏 -->
+  <section class="nj-hero" aria-labelledby="nj-hero-title">
+    <div class="nj-wrap nj-hero-grid">
+      <div>
+        <span class="nj-hero-badge"><i></i>官方网站 · 品牌官方出品</span>
+        <h1 id="nj-hero-title"><em>韩国伦理电影</em>的邻家叙事与真实人性</h1>
+        <p class="nj-hero-sub">我们是一家专注韩国伦理电影研究、影评发布与创作者社区的品牌企业，以专业视角拆解邻里关系题材，用影像记录平常生活里细密而真实的情感纹理。</p>
+        <div class="nj-hero-actions">
+          <a href="#nj-videos" class="nj-btn nj-btn-primary">浏览精品内容 <span aria-hidden="true">→</span></a>
+          <a href="#nj-creators" class="nj-btn nj-btn-ghost">认识创作者</a>
+        </div>
+        <div class="nj-hero-stats">
+          <div><b>1,286</b><span>部深度解读影片</span></div>
+          <div><b>3,400+</b><span>位活跃创作者</span></div>
+          <div><b>62.8万</b><span>社区持续关注用户</span></div>
+        </div>
+      </div>
+      <div class="nj-hero-visual">
+        <div class="nj-hero-frame">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 500'%3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23222f47'/%3E%3Cstop offset='1' stop-color='%230f172a'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23f59e0b'/%3E%3Cstop offset='1' stop-color='%23e5536b'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='500' fill='url(%23a)'/%3E%3Ccircle cx='640' cy='130' r='90' fill='%23f59e0b' opacity='0.22'/%3E%3Crect x='90' y='240' width='150' height='210' fill='%23394a68'/%3E%3Crect x='270' y='190' width='120' height='260' fill='%232b3a56'/%3E%3Crect x='200' y='290' width='52' height='52' fill='%23f59e0b' opacity='0.8'/%3E%3Crect x='420' y='250' width='130' height='200' fill='%23344763'/%3E%3Crect x='580' y='280' width='120' height='170' fill='%232c3b57'/%3E%3Cpath d='M0 452h800' stroke='%23f59e0b' stroke-width='2' opacity='0.4'/%3E%3Ccircle cx='300' cy='150' r='26' fill='url(%23b)' opacity='0.9'/%3E%3Cpath d='M240 170q60 -34 120 0' stroke='%23f59e0b' stroke-width='3' fill='none' opacity='0.5'/%3E%3C/svg%3E" alt="韩国伦理电影邻里题材影像主视觉，夜色街区与窗口灯光">
+          <div class="nj-hero-play"><b aria-hidden="true"></b></div>
+        </div>
+        <div class="nj-hero-float">
+          <b>本周焦点</b>《门与窗》导演手记
+          <small>官方首发 · 高品质正版影像</small>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 关键词深度解析 -->
+  <section class="nj-about nj-section" id="nj-about" aria-labelledby="nj-about-title">
+    <div class="nj-wrap">
+      <div class="nj-section-head">
+        <span class="nj-eyebrow">BRAND INSIGHT</span>
+        <h2 id="nj-about-title">关于韩国伦理电影的品牌定位与影像解析</h2>
+        <p>作为深耕垂直领域的影像品牌，我们以专业、真实、温暖的视角，持续运营一个值得信赖的内容社区。</p>
+      </div>
+
+      <div class="nj-about-grid">
+        <div class="nj-about-text">
+          <p>邻街映像馆是一家专注韩国伦理电影主题研究与影像发布的品牌企业。我们把「伦理」理解为人在日常关系中的选择与犹疑，把「邻街」理解为真实生活的舞台。韩国伦理电影在叙事上偏重邻里、家庭、代际之间的微妙张力，常用克制的镜头语言呈现普通人的内心波动，这与我们期望传递的价值高度一致：不渲染、不猎奇，只把真实关系中的温度与力量交还给观众。</p>
+          <p>作为官方网站，我们围绕这一主题建立起完整的精品内容体系，包括影片深度解读、导演与编剧访谈、关系类型学研究、观众口碑观察四大板块。每一个专题都由编辑团队与创作者共同完成，确保内容专业、来源正版、画质高清。我们相信，只有持续运营的内容生态，才能让一个品牌在时间长河里保持影响力。</p>
+
+          <h3>一、主题内核：伦理不是审判，而是理解</h3>
+          <p>韩国伦理电影最动人的地方，往往不在情节的戏剧性，而在人物面对关系困境时的犹疑瞬间。一个在门后迟疑的背影，一次邻里间欲言又止的问候，都可能成为叙事的关键支点。我们的影评团队在解读这类影片时，坚持三条原则：先理解人物的处境，再讨论行为的边界，最后回到观众自身的共情体验。这样的解读方式，让内容摆脱了简单的道德评判，转而成为一次关于成长与陪伴的对话。</p>
+
+          <h3>二、内容生态：从一部影片到一整个社区</h3>
+          <p>我们的内容生态由「看、读、聊、创」四个环节构成。看，是高清晰度的正版影像推荐与影片资料整理；读，是编辑团队撰写的长篇影评、导演手记与关系图谱；聊，是用户围绕具体影片展开的讨论、投票与口碑评价；创，是创作者上传自己的短片、随笔与影像解读。四个环节互相支撑，使社区不只是一个内容分发渠道，更是一个可以共同成长的创作空间。</p>
+
+          <h3>三、创作者角色：让专业被看见</h3>
+          <p>我们面向所有对邻家叙事感兴趣的创作者开放：影评人、短片导演、编剧、编剧学生、影视专业教师，甚至只是热爱看电影的普通观众。平台提供创作灵感、标题建议、剪辑思路等辅助工具，也设立年度扶持计划，帮助认真做内容的创作者获得更多曝光。我们看重的是持续的创作热情与真实表达，而不是一次性的流量。</p>
+
+          <h3>四、企业责任：品质与口碑并行</h3>
+          <p>作为一个持续运营的品牌官网，我们把「用户至上」写进每一次更新：严格审核上传内容，尊重版权与原创，避免过度渲染；对涉及未成年人、隐私与敏感关系的表述保持克制；在每一条影评末尾标注信息来源与参考资料。我们不追逐短期热点，更希望在行业观察与观众口碑之间，建立一座值得信赖的桥。</p>
+
+          <ul class="nj-about-list">
+            <li>发布原创影评与导演访谈，强调专业性而非情绪引导</li>
+            <li>建立关系类型索引，方便观众按主题检索与比较</li>
+            <li>开放创作者投稿，鼓励有细节、有温度的影像表达</li>
+            <li>持续更新企业动态与内容更新日志，保持透明沟通</li>
+          </ul>
+        </div>
+
+        <aside class="nj-about-aside" aria-label="主题速览">
+          <h4>主题速览</h4>
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 270'%3E%3Cdefs%3E%3ClinearGradient id='x' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%23fde7c4'/%3E%3Cstop offset='1' stop-color='%23f7c7a3'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='480' height='270' fill='url(%23x)'/%3E%3Crect x='60' y='70' width='360' height='150' rx='8' fill='%23ffffff' opacity='0.65'/%3E%3Cpath d='M60 90h360' stroke='%23e5536b' stroke-width='3' opacity='0.5'/%3E%3Ccircle cx='120' cy='140' r='20' fill='%23e5536b' opacity='0.75'/%3E%3Crect x='160' y='128' width='200' height='10' rx='5' fill='%23794b1e' opacity='0.5'/%3E%3Crect x='160' y='150' width='140' height='8' rx='4' fill='%23794b1e' opacity='0.32'/%3E%3Crect x='160' y='172' width='170' height='8' rx='4' fill='%23794b1e' opacity='0.32'/%3E%3C/svg%3E" alt="韩国伦理电影主题速览卡片，米白与暖橙色的关系笔记">
+          <p>以真实的邻里关系为切口，读懂韩国伦理电影里那些被轻声说出的人生。</p>
+          <div class="nj-tag-list">
+            <span class="nj-tag">邻里关系</span>
+            <span class="nj-tag">代际沟通</span>
+            <span class="nj-tag">克制叙事</span>
+            <span class="nj-tag">导演访谈</span>
+            <span class="nj-tag">口碑观察</span>
+            <span class="nj-tag">原创影评</span>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- 焦点内容 -->
+  <section class="nj-section" id="nj-focus" aria-labelledby="nj-focus-title">
+    <div class="nj-wrap">
+      <div class="nj-section-head">
+        <span class="nj-eyebrow">FOCUS</span>
+        <h2 id="nj-focus-title">视频焦点 · 本周编辑部推荐</h2>
+        <p>从品牌官方出品到创作者原创，我们把最有讨论价值的四部作品放在这里。</p>
+      </div>
+
+      <div class="nj-focus-grid">
+        <article class="nj-focus-main">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 450'%3E%3Cdefs%3E%3ClinearGradient id='m1' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%231b2438'/%3E%3Cstop offset='1' stop-color='%233a2c3e'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='450' fill='url(%23m1)'/%3E%3Crect x='120' y='90' width='240' height='300' fill='%23e5536b' opacity='0.25'/%3E%3Crect x='200' y='150' width='150' height='220' fill='%23f59e0b' opacity='0.35'/%3E%3Ccircle cx='560' cy='180' r='70' fill='%23fde7c4' opacity='0.35'/%3E%3Cpath d='M120 390h560' stroke='%23f59e0b' stroke-width='2' opacity='0.5'/%3E%3Cpath d='M470 240h180v150H470z' fill='%23ffffff' opacity='0.14'/%3E%3C/svg%3E" alt="《门与窗》韩国伦理电影导演手记焦点封面，暖橙与深紫的走廊光影">
+          <div class="nj-cover-mask">
+            <span class="nj-cover-tag">官方出品</span>
+            <h3>《门与窗》：一栋老楼里的六段邻里关系</h3>
+            <p>导演手记 × 影像解读，理解韩国伦理电影中「门」的隐喻与边界感。</p>
+            <div class="nj-cover-meta">
+              <span>邻街映像馆 · 编辑部</span>
+              <span>阅读 3.2 万</span>
+              <span>2026-11-12</span>
+            </div>
+          </div>
+        </article>
+
+        <div class="nj-focus-side">
+          <article class="nj-focus-mini">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 240'%3E%3Crect width='320' height='240' fill='%232f4854'/%3E%3Ccircle cx='240' cy='70' r='46' fill='%23f59e0b' opacity='0.4'/%3E%3Crect x='40' y='130' width='90' height='80' fill='%23e2e6ef' opacity='0.25'/%3E%3Crect x='150' y='150' width='70' height='60' fill='%23e5536b' opacity='0.45'/%3E%3C/svg%3E" alt="《楼下的灯》短片解析封面，蓝灰色调的窗与夜灯">
+            <div>
+              <h3>《楼下的灯》：邻居之间最难说出口的一句话</h3>
+              <p>短片解析 · 导演访谈</p>
+              <span>阅读 1.8 万</span>
+            </div>
+          </article>
+          <article class="nj-focus-mini">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 240'%3E%3Crect width='320' height='240' fill='%234a3b2f'/%3E%3Crect x='30' y='40' width='260' height='160' rx='6' fill='%23fde7c4' opacity='0.3'/%3E%3Ccircle cx='90' cy='120' r='26' fill='%23e5536b' opacity='0.6'/%3E%3Crect x='140' y='100' width='120' height='9' rx='4' fill='%23ffffff' opacity='0.5'/%3E%3Crect x='140' y='122' width='90' height='8' rx='4' fill='%23ffffff' opacity='0.35'/%3E%3Crect x='140' y='144' width='106' height='8' rx='4' fill='%23ffffff' opacity='0.35'/%3E%3C/svg%3E" alt="关系类型学专题封面，米色纸张与红色印章的图鉴">
+            <div>
+              <h3>关系类型学：韩国伦理电影里的八种「靠近」</h3>
+              <p>专题企划 · 类型学</p>
+              <span>阅读 2.6 万</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 视频流 -->
+  <section class="nj-videos nj-section" id="nj-videos" aria-labelledby="nj-videos-title">
+    <div class="nj-wrap">
+      <div class="nj-section-head">
+        <span class="nj-eyebrow">CURATED</span>
+        <h2 id="nj-videos-title">精品内容 · 韩国伦理电影主题视频</h2>
+        <p>九部内容，九种看法。点击标签筛选，找到你最想进入的那扇门。</p>
+      </div>
+
+      <div class="nj-filter-bar" id="nj-filter-bar" role="group" aria-label="内容标签筛选">
+        <button class="nj-filter-btn active" data-filter="all">全部</button>
+        <button class="nj-filter-btn" data-filter="影评解析">影评解析</button>
+        <button class="nj-filter-btn" data-filter="人物访谈">人物访谈</button>
+        <button class="nj-filter-btn" data-filter="创作幕后">创作幕后</button>
+        <button class="nj-filter-btn" data-filter="城市与邻里">城市与邻里</button>
+      </div>
+
+      <div class="nj-video-grid" id="nj-video-grid">
+
+        <article class="nj-video-card" data-cat="影评解析">
+          <div class="nj-video-thumb">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 225'%3E%3Crect width='400' height='225' fill='%231e2a3d'/%3E%3Crect x='40' y='50' width='120' height='130' fill='%23f59e0b' opacity='0.3'/%3E%3Crect x='180' y='80' width='90' height='100' fill='%23e5536b' opacity='0.35'/%3E%3Ccircle cx='330' cy='60' r='34' fill='%23fde7c4' opacity='0.4'/%3E%3C/svg%3E" alt="韩国伦理电影《隔壁的声音》影评解析封面">
+          </div>
+          <div class="nj-video-body">
+            <h3>《隔壁的声音》为什么用大量留白推进叙事</h3>
+            <p>从一个不说话的镜头说开，理解韩国伦理电影中克制美学如何建立情绪。</p>
+            <div class="nj-video-tags"><span>影评解析</span><span>镜头语言</span></div>
+            <div class="nj-video-foot">
+              <div class="nj-author"><span class="nj-avatar" style="background:#e5536b">沈</span>沈砚之</div>
+              <div class="nj-actions">
+                <button class="nj-action-btn nj-like" data-count="842">♡ <span>842</span></button>
+                <button class="nj-action-btn nj-report">反馈</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="nj-video-card" data-cat="人物访谈">
+          <div class="nj-video-thumb">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 225'%3E%3Crect width='400' height='225' fill='%233d3350'/%3E%3Ccircle cx='200' cy='100' r='56' fill='%23fde7c4' opacity='0.45'/%3E%3Cpath d='M150 190q50 -40 100 0' stroke='%23f59e0b' stroke-width='5' fill='none' opacity='0.7'/%3E%3Crect x='40' y='40' width='50' height='50' fill='%23e5536b' opacity='0.4'/%3E%3C/svg%3E" alt="韩国伦理电影编剧朴恩熙访谈封面，柔紫背景与人物剪影">
+          </div>
+          <div class="nj-video-body">
+            <h3>编剧访谈：写邻家关系时，我如何避免审判人物</h3>
+            <p>对话资深编剧朴恩熙，聊聊她如何处理暧昧、误会与善意的边界。</p>
+            <div class="nj-video-tags"><span>人物访谈</span><span>编剧方法论</span></div>
+            <div class="nj-video-foot">
+              <div class="nj-author"><span class="nj-avatar" style="background:#7c5cd6">林</span>林未舟</div>
+              <div class="nj-actions">
+                <button class="nj-action-btn nj-like" data-count="615">♡ <span>615</span></button>
+                <button class="nj-action-btn nj-report">反馈</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="nj-video-card" data-cat="创作幕后">
+          <div class="nj-video-thumb">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 225'%3E%3Crect width='400' height='225' fill='%23263c3a'/%3E%3Crect x='50' y='60' width='300' height='100' rx='8' fill='%23fde7c4' opacity='0.25'/%3E%3Crect x='70' y='80' width='100' height='60' fill='%23f59e0b' opacity='0.5'/%3E%3Ccircle cx='300' cy='110' r='30' fill='%23e5536b' opacity='0.55'/%3E%3C/svg%3E" alt="韩国伦理电影短片拍摄幕后封面，海绿与米白的工作台">
+          </div>
+          <div class="nj-video-body">
+            <h3>创作幕后：一部邻里短片从脚本到成片的十四天</h3>
+            <p>跟随新人导演的拍摄日志，看看小成本团队如何讲好一个日常故事。</p>
+            <div class="nj-video-tags"><span>创作幕后</span><span>短片制作</span></div>
+            <div class="nj-video-foot">
+              <div class="nj-author"><span class="nj-avatar" style="background:#2f9e8f">周</span>周原野</div>
+              <div class="nj-actions">
+                <button class="nj-action-btn nj-like" data-count="508">♡ <span>508</span></button>
+                <button class="nj-action-btn nj-report">反馈</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="nj-video-card" data-cat="城市与邻里">
+          <div class="nj-video-thumb">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 225'%3E%3Crect width='400' height='225' fill='%2324354e'/%3E%3Crect x='30' y='120' width='70' height='100' fill='%23f59e0b' opacity='0.35'/%3E%3Crect x='120' y='90' width='60' height='130' fill='%23fde7c4' opacity='0.3'/%3E%3Crect x='200' y='140' width='80' height='80' fill='%23e5536b' opacity='0.35'/%3E%3Crect x='300' y='100' width='70' height='120' fill='%23f59e0b' opacity='0.25'/%3E%3C/svg%3E" alt="首尔老城区邻里空间考察封面，蓝灰城市剪影">
+          </div>
+          <div class="nj-video-body">
+            <h3>城市与邻里：首尔老城区里的「共享门廊」考察</h3>
+            <p>从建筑空间看韩国伦理电影的叙事土壤，那些半公共的过渡地带。</p>
+            <div class="nj-video-tags"><span>城市与邻里</span><span>空间观察</span></div>
+            <div class="nj-video-foot">
+              <div class="nj-author"><span class="nj-avatar" style="background:#3f6fbf">程</span>程一衡</div>
+              <div class="nj-actions">
+                <button class="nj-action-btn nj-like" data-count="437">♡ <span>437</span></button>
+                <button class="nj-action-btn nj-report">反馈</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="nj-video-card" data-cat="影评解析">
+          <div class="nj-video-thumb">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 225'%3E%3Crect width='400' height='225' fill='%23413a2c'/%3E%3Crect x='60' y='50' width='280' height='130' rx='10' fill='%23fde7c4' opacity='0.22'/%3E%3Ccircle cx='130' cy='112' r='34' fill='%23e5536b' opacity='0.55'/%3E%3Crect x='190' y='95' width='120' height='9' rx='4' fill='%23fff' opacity='0.5'/%3E%3Crect x='190' y='118' width='80' height='8' rx='4' fill='%23fff' opacity='0.33'/%3E%3C/svg%3E" alt="韩国伦理电影《春分之后》影评封面，暖褐纸张质感">
+          </div>
+          <div class="nj-video-body">
+            <h3>《春分之后》影评：家庭伦理片里的时间感</h3>
+            <p>为什么这部电影几乎没有冲突，却让人反复回想？一次关于时间与和解的分析。</p>
+            <div class="nj-video-tags"><span>影评解析</span><span>家庭关系</span></div>
+            <div class="nj-video-foot">
+              <div class="nj-author"><span class="nj-avatar" style="background:#c2803a">燕</span>燕南枝</div>
+              <div class="nj-actions">
+                <button class="nj-action-btn nj-like" data-count="723">♡ <span>723</span></button>
+                <button class="nj-action-btn nj-report">反馈</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="nj-video-card" data-cat="人物访谈">
+          <div class="nj-video-thumb">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 225'%3E%3Crect width='400' height='225' fill='%232b2340'/%3E%3Ccircle cx='110' cy='90' r='40' fill='%23f59e0b' opacity='0.5'/%3E%3Ccircle cx='290' cy='130' r='46' fill='%23e5536b' opacity='0.45'/%3E%3Cpath d='M110 150q90 60 180 0' stroke='%23fde7c4' stroke-width='4' fill='none' opacity='0.45'/%3E%3C/svg%3E" alt="韩国伦理电影美术指导访谈封面，深紫与橙红的双圆构图">
+          </div>
+          <div class="nj-video-body">
+            <h3>美术指导访谈：如何用一张沙发讲完一段关系</h3>
+            <p>从道具与色彩出发，看看韩国伦理电影如何用场景细节暗示人物距离。</p>
+            <div class="nj-video-tags"><span>人物访谈</span><span>美术设计</span></div>
+            <div class="nj-video-foot">
+              <div class="nj-author"><span class="nj-avatar" style="background:#9b59b6">车</span>车明远</div>
+              <div class="nj-actions">
+                <button class="nj-action-btn nj-like" data-count="389">♡ <span>389</span></button>
+                <button class="nj-action-btn nj-report">反馈</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="nj-video-card" data-cat="创作幕后">
+          <div class="nj-video-thumb">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 225'%3E%3Crect width='400' height='225' fill='%23384631'/%3E%3Crect x='50' y='70' width='110' height='90' rx='6' fill='%23fde7c4' opacity='0.3'/%3E%3Crect x='190' y='50' width='150' height='130' rx='8' fill='%23f59e0b' opacity='0.28'/%3E%3Ccircle cx='260' cy='115' r='26' fill='%23fff' opacity='0.5'/%3E%3C/svg%3E" alt="韩国伦理电影剪辑思路工作坊封面，橄榄绿与米白工作台">
+          </div>
+          <div class="nj-video-body">
+            <h3>剪辑思路工作坊：让沉默也有节奏的三个方法</h3>
+            <p>面向投稿创作者的实操分享，用具体片段讲解节奏、呼吸与情绪留白。</p>
+            <div class="nj-video-tags"><span>创作幕后</span><span>剪辑干货</span></div>
+            <div class="nj-video-foot">
+              <div class="nj-author"><span class="nj-avatar" style="background:#5d8a3a">贺</span>贺言川</div>
+              <div class="nj-actions">
+                <button class="nj-action-btn nj-like" data-count="546">♡ <span>546</span></button>
+                <button class="nj-action-btn nj-report">反馈</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="nj-video-card" data-cat="城市与邻里">
+          <div class="nj-video-thumb">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 225'%3E%3Crect width='400' height='225' fill='%233a2f45'/%3E%3Crect x='40' y='130' width='320' height='50' fill='%23f59e0b' opacity='0.25'/%3E%3Crect x='90' y='60' width='60' height='70' fill='%23fde7c4' opacity='0.4'/%3E%3Crect x='180' y='80' width='50' height='50' fill='%23e5536b' opacity='0.5'/%3E%3Crect x='260' y='50' width='70' height='80' fill='%23fde7c4' opacity='0.3'/%3E%3C/svg%3E" alt="韩国小城市街巷影像记录封面，暮紫与橙黄街景">
+          </div>
+          <div class="nj-video-body">
+            <h3>街巷影像记录：小城市里正在消失的邻里日常</h3>
+            <p>一次带着摄影机的散步，记录老街区里那些被韩国伦理电影反复借用的场景。</p>
+            <div class="nj-video-tags"><span>城市与邻里</span><span>日常记录</span></div>
+            <div class="nj-video-foot">
+              <div class="nj-author"><span class="nj-avatar" style="background:#b3543f">范</span>范知秋</div>
+              <div class="nj-actions">
+                <button class="nj-action-btn nj-like" data-count="468">♡ <span>468</span></button>
+                <button class="nj-action-btn nj-report">反馈</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="nj-video-card" data-cat="影评解析">
+          <div class="nj-video-thumb">
+            <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 225'%3E%3Crect width='400' height='225' fill='%23222c3b'/%3E%3Crect x='60' y='60' width='280' height='110' rx='6' fill='%23e5536b' opacity='0.18'/%3E%3Cpath d='M80 150l70 -50 70 40 70 -60' stroke='%23f59e0b' stroke-width='4' fill='none' opacity='0.85'/%3E%3Ccircle cx='220' cy='140' r='7' fill='%23fde7c4'/%3E%3C/svg%3E" alt="韩国伦理电影数据口碑榜封面，深蓝底与折线图">
+          </div>
+          <div class="nj-video-body">
+            <h3>口碑观察：过去一年韩国伦理电影的主题变化</h3>
+            <p>用社区投票与评论数据，梳理观众最关注的关系议题与情绪走向。</p>
+            <div class="nj-video-tags"><span>影评解析</span><span>口碑观察</span></div>
+            <div class="nj-video-foot">
+              <div class="nj-author"><span class="nj-avatar" style="background:#3f6fbf">闻</span>闻清野</div>
+              <div class="nj-actions">
+                <button class="nj-action-btn nj-like" data-count="671">♡ <span>671</span></button>
+                <button class="nj-action-btn nj-report">反馈</button>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 专题 -->
+  <section class="nj-section" id="nj-topics" aria-labelledby="nj-topics-title">
+    <div class="nj-wrap">
+      <div class="nj-section-head">
+        <span class="nj-eyebrow">SERIES</span>
+        <h2 id="nj-topics-title">专题企划 · 把零散的影像连成一条线</h2>
+        <p>每季度一个主题，从不同角度切入韩国伦理电影，持续更新，欢迎投票选出下一期。</p>
+      </div>
+
+      <div class="nj-topics-grid">
+        <article class="nj-topic-card">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 300'%3E%3Crect width='500' height='300' fill='%23302a44'/%3E%3Ccircle cx='380' cy='80' r='60' fill='%23f59e0b' opacity='0.35'/%3E%3Crect x='40' y='120' width='100' height='180' fill='%23fde7c4' opacity='0.2'/%3E%3Crect x='160' y='90' width='90' height='210' fill='%23e5536b' opacity='0.3'/%3E%3C/svg%3E" alt="「邻里之间」专题企划封面，深紫街区与橙色窗灯">
+          <div class="nj-topic-content">
+            <small>SERIES 01</small>
+            <h3>「邻里之间」主题征稿企划</h3>
+            <p>记录你身边的邻里故事，用影像或文字参与年度口碑评选。</p>
+            <span class="nj-topic-status">征稿中 · 12月截止</span>
+          </div>
+        </article>
+
+        <article class="nj-topic-card">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 300'%3E%3Crect width='500' height='300' fill='%232c4142'/%3E%3Crect x='30' y='40' width='440' height='220' rx='10' fill='%23fde7c4' opacity='0.16'/%3E%3Cpath d='M70 210l90 -80 80 50 90 -70 100 90' stroke='%23f59e0b' stroke-width='4' fill='none' opacity='0.7'/%3E%3C/svg%3E" alt="「门与窗」导演手记专题封面，墨绿与米白手稿">
+          <div class="nj-topic-content">
+            <small>SERIES 02</small>
+            <h3>「门与窗」导演手记连载体</h3>
+            <p>每期一位导演，讲述他们在拍摄邻居关系时做过的艰难选择。</p>
+            <span class="nj-topic-status">已更新 4 期</span>
+          </div>
+        </article>
+
+        <article class="nj-topic-card">
+          <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 300'%3E%3Crect width='500' height='300' fill='%23463327'/%3E%3Ccircle cx='130' cy='110' r='50' fill='%23e5536b' opacity='0.4'/%3E%3Ccircle cx='360' cy='180' r='70' fill='%23f59e0b' opacity='0.3'/%3E%3Crect x='210' y='60' width='70' height='180' fill='%23fde7c4' opacity='0.16'/%3E%3C/svg%3E" alt="「关系图鉴」类型学专题封面，褐色与双色圆形">
+          <div class="nj-topic-content">
+            <small>SERIES 03</small>
+            <h3>「关系图鉴」韩国伦理电影类型学</h3>
+            <p>把八种典型邻里关系拆开来看，搭配片单与讨论话题。</p>
+            <span class="nj-topic-status">长期更新</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 创作者 -->
+  <section class="nj-creators nj-section" id="nj-creators" aria-labelledby="nj-creators-title">
+    <div class="nj-wrap">
+      <div class="nj-section-head">
+        <span class="nj-eyebrow">CREATORS</span>
+        <h2 id="nj-creators-title">创作者矩阵 · 他们让邻家叙事被看见</h2>
+        <p>四位长期在社区创作的专业作者，每一位都有自己的研究方法与表达方式。</p>
+      </div>
+
+      <div class="nj-creator-grid">
+        <article class="nj-creator-card">
+          <div class="nj-creator-avatar" style="background:linear-gradient(140deg,#e5536b,#b23a52)">沈</div>
+          <h3>沈砚之</h3>
+          <div class="nj-field">影评人 · 镜头语言</div>
+          <p>专注韩国伦理电影的长镜头研究，坚持逐帧拆解，把观众看不见的细节写出来。</p>
+          <div class="nj-creator-nums">
+            <div><b>86</b>作品</div>
+            <div><b>4.2万</b>关注</div>
+          </div>
+          <button class="nj-creator-more nj-author-modal" data-name="沈砚之" data-desc="影评人，研究韩国伦理电影中的长镜头与留白，主张先理解再判断。">查看作者档案</button>
+        </article>
+
+        <article class="nj-creator-card">
+          <div class="nj-creator-avatar" style="background:linear-gradient(140deg,#7c5cd6,#4c379b)">林</div>
+          <h3>林未舟</h3>
+          <div class="nj-field">访谈作者 · 编剧方法</div>
+          <p>长期跟踪韩国编剧群体，擅长把创作者的方法论转译成普通读者能理解的文字。</p>
+          <div class="nj-creator-nums">
+            <div><b>54</b>作品</div>
+            <div><b>3.1万</b>关注</div>
+          </div>
+          <button class="nj-creator-more nj-author-modal" data-name="林未舟" data-desc="访谈作者，关注编剧方法与社会语境，作品以对话体与长访谈为主。">查看作者档案</button>
+        </article>
+
+        <article class="nj-creator-card">
+          <div class="nj-creator-avatar" style="background:linear-gradient(140deg,#2f9e8f,#1d6d62)">周</div>
+          <h3>周原野</h3>
+          <div class="nj-field">短片导演 · 日常记录</div>
+          <p>拍过二十多部邻里题材短片，偏爱自然光与非职业演员，作品常在社区首发。</p>
+          <div class="nj-creator-nums">
+            <div><b>38</b>作品</div>
+            <div><b>2.7万</b>关注</div>
+          </div>
+          <button class="nj-creator-more nj-author-modal" data-name="周原野" data-desc="短片导演，聚焦邻里与日常，主张用低成本拍出真实感受。">查看作者档案</button>
+        </article>
+
+        <article class="nj-creator-card">
+          <div class="nj-creator-avatar" style="background:linear-gradient(140deg,#3f6fbf,#24508f)">闻</div>
+          <h3>闻清野</h3>
+          <div class="nj-field">口碑观察 · 数据分析</div>
+          <p>用数据追踪观众情绪与口碑变化，每月发布一份韩国伦理电影观察报告。</p>
+          <div class="nj-creator-nums">
+            <div><b>41</b>作品</div>
+            <div><b>2.2万</b>关注</div>
+          </div>
+          <button class="nj-creator-more nj-author-modal" data-name="闻清野" data-desc="内容观察者，擅长用社区数据描绘观众口碑与主题趋势。">查看作者档案</button>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 评价 -->
+  <section class="nj-section" id="nj-voice" aria-labelledby="nj-voice-title">
+    <div class="nj-wrap">
+      <div class="nj-section-head">
+        <span class="nj-eyebrow">VOICES</span>
+        <h2 id="nj-voice-title">社区口碑 · 来自观众的六种声音</h2>
+        <p>他们有的看了三年，有的刚刚进入。真实、多元、不设标准答案，是这里最珍贵的东西。</p>
+      </div>
+
+      <div class="nj-comments-grid">
+        <article class="nj-comment">
+          <div class="nj-comment-head">
+            <span class="nj-avatar" style="background:#e5536b">宋</span>
+            <div><b>宋清和</b><small>社区用户 · 3 年</small></div>
+          </div>
+          <p>最喜欢这里的影评不急着下结论。看完《春分之后》再读解析，才发现自己漏掉了那么多细节，像重新看了一遍。</p>
+          <div class="nj-comment-stars" aria-label="五星评价">★★★★★</div>
+        </article>
+
+        <article class="nj-comment">
+          <div class="nj-comment-head">
+            <span class="nj-avatar" style="background:#3f6fbf">许</span>
+            <div><b>许望</b><small>短片创作者</small></div>
+          </div>
+          <p>投稿流程很清晰，编辑给的意见也很实在。第一次有人认真看完我的十几分钟短片，还给了一页反馈。</p>
+          <div class="nj-comment-stars" aria-label="五星评价">★★★★★</div>
+        </article>
+
+        <article class="nj-comment">
+          <div class="nj-comment-head">
+            <span class="nj-avatar" style="background:#f59e0b">高</span>
+            <div><b>高见</b><small>影视专业教师</small></div>
+          </div>
+          <p>我会把「关系图鉴」专题推荐给学生当拓展阅读，分类清楚，引用也规范，这在同类内容里不容易。</p>
+          <div class="nj-comment-stars" aria-label="四星评价">★★★★☆</div>
+        </article>
+
+        <article class="nj-comment">
+          <div class="nj-comment-head">
+            <span class="nj-avatar" style="background:#7c5cd6">黎</span>
+            <div><b>黎小满</b><small>社区用户 · 1 年</small></div>
+          </div>
+          <p>画面质感是真的好，页面看着舒服，不像很多地方密密麻麻全是猜你喜欢。搜索也很好用。</p>
+          <div class="nj-comment-stars" aria-label="五星评价">★★★★★</div>
+        </article>
+
+        <article class="nj-comment">
+          <div class="nj-comment-head">
+            <span class="nj-avatar" style="background:#2f9e8f">白</span>
+            <div><b>白露未晞</b><small>编剧 · 新锐作者</small></div>
+          </div>
+          <p>那些导演手记是我创作的灵感来源。不是为了模仿，而是看完之后会想，原来这个问题还能这样处理。</p>
+          <div class="nj-comment-stars" aria-label="五星评价">★★★★★</div>
+        </article>
+
+        <article class="nj-comment">
+          <div class="nj-comment-head">
+            <span class="nj-avatar" style="background:#b3543f">陈</span>
+            <div><b>陈屿</b><small>社区用户 · 2 年</small></div>
+          </div>
+          <p>建议以后多做一些不同城市的邻里影像。韩国伦理电影只是一部分，我们身边的故事同样值得被记录。</p>
+          <div class="nj-comment-stars" aria-label="四星评价">★★★★☆</div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 企业动态 + 合作 -->
+  <section class="nj-section" id="nj-dynamics" aria-labelledby="nj-dynamics-title" style="background:#fff;border-top:1px solid var(--nj-line);border-bottom:1px solid var(--nj-line)">
+    <div class="nj-wrap">
+      <div class="nj-section-head">
+        <span class="nj-eyebrow">NEWSROOM</span>
+        <h2 id="nj-dynamics-title">企业动态与内容更新日志</h2>
+        <p>品牌官方发布与合作伙伴信息，保持透明的沟通节奏。</p>
+      </div>
+
+      <div class="nj-dyn-grid">
+        <div class="nj-timeline">
+          <div class="nj-timeline-item">
+            <time>2026-11-15</time>
+            <h3>「邻里之间」主题征稿正式开启</h3>
+            <p>面向所有创作者开放报名，上传影像作品即可参与年度口碑评选，优秀作品将获得官方推介。</p>
+          </div>
+          <div class="nj-timeline-item">
+            <time>2026-11-08</time>
+            <h3>韩国伦理电影专题片单更新至 128 部</h3>
+            <p>编辑团队补充了 12 部近年作品的关系类型索引，并同步校正了部分影片的资料信息。</p>
+          </div>
+          <div class="nj-timeline-item">
+            <time>2026-10-28</time>
+            <h3>品牌官方出品《邻街叙事·第二季》上线</h3>
+            <p>六位导演、六段邻里关系，官方首发，配套发布导演手记与拍摄访谈。</p>
+          </div>
+          <div class="nj-timeline-item">
+            <time>2026-10-12</time>
+            <h3>2026 年度创作者扶持计划开始报名</h3>
+            <p>面向持续运营的原创作者，提供内容策划、剪辑工作坊与渠道曝光等支持。</p>
+          </div>
+        </div>
+
+        <div>
+          <h3 style="font-size:17px;margin-bottom:16px">合作品牌与伙伴</h3>
+          <div class="nj-partner-wall">
+            <div class="nj-partner">光影书院</div>
+            <div class="nj-partner">城南影像节</div>
+            <div class="nj-partner">邻声文化</div>
+            <div class="nj-partner">一页剧本社</div>
+            <div class="nj-partner">慢镜头工作室</div>
+            <div class="nj-partner">城市观察所</div>
+          </div>
+          <p style="font-size:13px;color:var(--nj-muted);margin-top:16px;line-height:1.8">我们与内容机构、影像节展、编剧社群保持长期合作，共同推动邻家叙事在更广的范围内被认真对待。如希望开展内容共创，可通过页脚联系方式与品牌团队沟通。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="nj-section" id="nj-faq" aria-labelledby="nj-faq-title">
+    <div class="nj-wrap">
+      <div class="nj-section-head">
+        <span class="nj-eyebrow">HELP</span>
+        <h2 id="nj-faq-title">常见问题 · 关于内容、投稿与社区</h2>
+        <p>点击展开查看回答。如果这里没有你要的答案，欢迎在页面底部留言。</p>
+      </div>
+
+      <div class="nj-faq-grid">
+        <details class="nj-faq-item">
+          <summary>邻街映像馆是一个什么性质的组织？</summary>
+          <p>我们是一家持续运营的影像内容品牌企业，官方网站主要发布韩国伦理电影方向的影评、访谈、专题与创作者作品，同时运营一个开放的影像社区。</p>
+        </details>
+        <details class="nj-faq-item">
+          <summary>内容是否全部为原创？</summary>
+          <p>站内影评、访谈、专题策划均为编辑团队与签约创作者原创。引用影片画面与资料时，会标注来源并遵循相关版权规范，尊重正版与原创。</p>
+        </details>
+        <details class="nj-faq-item">
+          <summary>普通观众可以投稿吗？</summary>
+          <p>可以。我们欢迎影评、随笔、短片、影像记录等多种形式。投稿入口位于页面底部联系区，提交后一般三至五个工作日内会收到编辑反馈。</p>
+        </details>
+        <details class="nj-faq-item">
+          <summary>投稿作品有什么要求？</summary>
+          <p>主题需与邻里关系、家庭伦理、城市日常相关；作品须为本人原创或已获授权；影像建议提供 1080P 以上清晰度。我们不接受过度渲染或侵犯他人隐私的内容。</p>
+        </details>
+        <details class="nj-faq-item">
+          <summary>如何参与「邻里之间」主题征稿？</summary>
+          <p>在联系表单中选择「主题征稿」并留下作品链接或简介即可报名。入选作品将在首页专题区展出，并参与年度口碑投票。</p>
+        </details>
+        <details class="nj-faq-item">
+          <summary>站内内容会收费吗？</summary>
+          <p>目前绝大部分影评、访谈与专题内容对社区用户开放阅读。部分线下活动与工作坊可能收取基础费用，具体以活动公告为准。</p>
+        </details>
+        <details class="nj-faq-item">
+          <summary>可以申请成为签约创作者吗？</summary>
+          <p>可以。年度创作者扶持计划每年开放两次报名，我们更看重持续更新的能力与真实表达，而非单条内容的流量表现。</p>
+        </details>
+        <details class="nj-faq-item">
+          <summary>发现内容问题如何反馈？</summary>
+          <p>每张视频卡片都设有反馈按钮，也可以直接通过页面底部的方式联系我们。品牌团队会在核实后尽快处理并回复。</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- 联系 -->
+  <section class="nj-contact nj-section" id="nj-contact" aria-labelledby="nj-contact-title">
+    <div class="nj-wrap nj-contact-grid">
+      <div>
+        <span class="nj-eyebrow" style="color:#fbbf24">CONTACT</span>
+        <h2 id="nj-contact-title">与品牌团队聊聊你的想法</h2>
+        <p>无论你是想投稿、报名征稿、寻求合作，还是只想说说看完某部影片的感受，我们都愿意听。</p>
+        <div class="nj-contact-info">
+          <div><b>品牌邮箱</b><span>brand@linjie-film.cn</span></div>
+          <div><b>内容合作</b><span>partner@linjie-film.cn</span></div>
+          <div><b>投稿咨询</b><span>submit@linjie-film.cn</span></div>
+          <div><b>工作时间</b><span>周一至周五 10:00–18:00</span></div>
+        </div>
+        <div style="display:flex;gap:12px;flex-wrap:wrap">
+          <button class="nj-btn nj-btn-primary" id="nj-share-btn">分享本站</button>
+          <a href="#nj-faq" class="nj-btn nj-btn-ghost">查看帮助</a>
+        </div>
+      </div>
+
+      <div class="nj-contact-card">
+        <h3>投稿与联系表单</h3>
+        <p>填写后我们会通过邮件回复，请确保联系方式准确。</p>
+        <form id="nj-contact-form">
+          <input class="nj-input" type="text" placeholder="你的称呼" aria-label="你的称呼" required>
+          <input class="nj-input" type="email" placeholder="联系邮箱" aria-label="联系邮箱" required>
+          <input class="nj-input" type="text" placeholder="想聊的主题，如影评 / 短片投稿" aria-label="主题">
+          <textarea class="nj-input" rows="3" placeholder="简单描述你的想法" aria-label="内容描述" style="resize:vertical"></textarea>
+          <button type="submit" class="nj-btn nj-btn-primary" style="width:100%;justify-content:center">提交信息</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="nj-footer">
+  <div class="nj-wrap">
+    <div class="nj-footer-grid">
+      <div class="nj-footer-brand">
+        <div class="nj-logo">
+          <span class="nj-logo-mark">
+            <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8" stroke="#f59e0b" stroke-width="1.8"/><path d="M10 8.6l6 3.4-6 3.4z" fill="#f59e0b"/></svg>
+          </span>
+          <span class="nj-logo-text" style="color:#e7edf9">
+            <b>邻街映像馆</b>
+            <small style="color:#8593ad">NEIGHBOR FILM</small>
+          </span>
+        </div>
+        <p>邻街映像馆官方网站 · 专注韩国伦理电影主题的原创影评、导演访谈与影像社区，以专业与温度持续运营，让每一次观看都值得被认真对待。</p>
+      </div>
+      <div>
+        <h4>内容导航</h4>
+        <ul>
+          <li><a href="#nj-focus">视频焦点</a></li>
+          <li><a href="#nj-videos">精品内容</a></li>
+          <li><a href="#nj-topics">专题企划</a></li>
+          <li><a href="#nj-creators">创作者矩阵</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>品牌信息</h4>
+        <ul>
+          <li><a href="#nj-about">品牌定位</a></li>
+          <li><a href="#nj-dynamics">企业动态</a></li>
+          <li><a href="#nj-voice">社区口碑</a></li>
+          <li><a href="#nj-faq">帮助中心</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>参与社区</h4>
+        <ul>
+          <li><a href="#nj-contact">投稿入口</a></li>
+          <li><a href="#nj-contact">主题征稿</a></li>
+          <li><a href="#nj-contact">合作联系</a></li>
+          <li><a href="#nj-videos">内容筛选</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="nj-footer-bottom">
+      <span>© 2026 邻街映像馆 版权所有 · 持续运营中 · 备案号：京ICP备 2026 0815 号</span>
+      <span>韩国伦理电影 · 原创内容 · 官方发布</span>
+    </div>
+  </div>
+</footer>
+
+<button class="nj-top-btn" id="nj-top-btn" aria-label="回到顶部">↑</button>
+
+<div class="nj-toast" id="nj-toast" role="status" aria-live="polite"></div>
+
+<div class="nj-modal" id="nj-modal" role="dialog" aria-modal="true" aria-labelledby="nj-modal-title">
+  <div class="nj-modal-box">
+    <div class="nj-modal-inner">
+      <button class="nj-modal-close" id="nj-modal-close" aria-label="关闭弹窗">×</button>
+      <h3 id="nj-modal-title">提示</h3>
+      <p id="nj-modal-text">内容加载中。</p>
+      <div class="nj-modal-actions" id="nj-modal-actions">
+        <button class="nj-btn nj-btn-primary" id="nj-modal-ok" style="padding:9px 22px;font-size:14px">知道了</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  /* ---------- 移动端导航折叠 ---------- */
+  var burger = document.getElementById('nj-burger');
+  var nav = document.getElementById('nj-nav');
+  burger.addEventListener('click', function(){
+    var open = nav.classList.toggle('open');
+    burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  nav.addEventListener('click', function(e){
+    if(e.target.tagName === 'A'){
+      nav.classList.remove('open');
+      burger.setAttribute('aria-expanded','false');
+    }
+  });
+
+  /* ---------- Toast ---------- */
+  var toast = document.getElementById('nj-toast');
+  var toastTimer = null;
+  function showToast(msg){
+    toast.textContent = msg;
+    toast.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function(){
+      toast.classList.remove('show');
+    }, 2200);
+  }
+
+  /* ---------- 搜索反馈 ---------- */
+  var searchForm = document.getElementById('nj-search-form');
+  var searchInput = document.getElementById('nj-search-input');
+  var searchTip = document.getElementById('nj-search-tip');
+  searchForm.addEventListener('submit', function(e){
+    e.preventDefault();
+    var kw = searchInput.value.trim();
+    if(!kw){
+      searchTip.textContent = '请输入关键词，例如「邻里」「导演访谈」「门与窗」。';
+      searchTip.classList.add('show');
+      return;
+    }
+    searchTip.textContent = '已按「' + kw + '」检索，结果包含相关影评、访谈与专题内容。';
+    searchTip.classList.add('show');
+    showToast('正在为你整理「' + kw + '」相关内容');
+  });
+  searchInput.addEventListener('input', function(){
+    if(searchTip.classList.contains('show')) searchTip.classList.remove('show');
+  });
+  document.addEventListener('click', function(e){
+    if(!searchForm.contains(e.target) && searchTip !== e.target){
+      searchTip.classList.remove('show');
+    }
+  });
+
+  /* ---------- 标签筛选 ---------- */
+  var filterBar = document.getElementById('nj-filter-bar');
+  var videoGrid = document.getElementById('nj-video-grid');
+  filterBar.addEventListener('click', function(e){
+    var btn = e.target.closest('.nj-filter-btn');
+    if(!btn) return;
+    Array.prototype.forEach.call(filterBar.children, function(b){
+      b.classList.toggle('active', b === btn);
+    });
+    var cat = btn.getAttribute('data-filter');
+    var shown = 0;
+    Array.prototype.forEach.call(videoGrid.children, function(card){
+      var match = (cat === 'all' || card.getAttribute('data-cat') === cat);
+      card.style.display = match ? '' : 'none';
+      if(match) shown++;
+    });
+    showToast('已筛选出 ' + shown + ' 条内容');
+  });
+
+  /* ---------- 点赞 ---------- */
+  var videoGrid2 = document.getElementById('nj-video-grid');
+  videoGrid2.addEventListener('click', function(e){
+    var likeBtn = e.target.closest('.nj-like');
+    if(likeBtn){
+      var span = likeBtn.querySelector('span');
+      var base = parseInt(likeBtn.getAttribute('data-count'), 10);
+      var liked = likeBtn.classList.toggle('liked');
+      span.textContent = liked ? base + 1 : base;
+      if(liked){
+        likeBtn.querySelector('span').previousSibling.nodeValue = '';
+        showToast('已为这条内容点赞');
+      }
+    }
+    var repBtn = e.target.closest('.nj-report');
+    if(repBtn){
+      openModal('内容反馈', '感谢你的关注。请简要说明你遇到的问题，或通过底部联系邮箱与品牌团队沟通，我们会在核实后处理。');
+    }
+  });
+
+  /* ---------- 弹窗 ---------- */
+  var modal = document.getElementById('nj-modal');
+  var modalTitle = document.getElementById('nj-modal-title');
+  var modalText = document.getElementById('nj-modal-text');
+  var modalClose = document.getElementById('nj-modal-close');
+  var modalOk = document.getElementById('nj-modal-ok');
+  function openModal(title, text){
+    modalTitle.textContent = title;
+    modalText.textContent = text;
+    modal.classList.add('show');
+  }
+  function closeModal(){
+    modal.classList.remove('show');
+  }
+  modalClose.addEventListener('click', closeModal);
+  modalOk.addEventListener('click', closeModal);
+  modal.addEventListener('click', function(e){
+    if(e.target === modal) closeModal();
+  });
+  document.addEventListener('keydown', function(e){
+    if(e.key === 'Escape') closeModal();
+  });
+
+  /* ---------- 作者档案弹窗 ---------- */
+  Array.prototype.forEach.call(document.querySelectorAll('.nj-author-modal'), function(btn){
+    btn.addEventListener('click', function(){
+      openModal(btn.getAttribute('data-name') + ' · 作者档案', btn.getAttribute('data-desc') + ' 持续在社区更新原创内容，欢迎关注。');
+    });
+  });
+
+  /* ---------- 分享 ---------- */
+  var shareBtn = document.getElementById('nj-share-btn');
+  shareBtn.addEventListener('click', function(){
+    var url = 'linjie-film.cn';
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText('邻街映像馆 · 韩国伦理电影主题影像社区').then(function(){
+        showToast('品牌信息已复制，欢迎分享给朋友');
+      }).catch(function(){
+        showToast('可分享给你的朋友：邻街映像馆');
+      });
+    } else {
+      showToast('可分享给你的朋友：邻街映像馆');
+    }
+  });
+
+  /* ---------- 联系表单 ---------- */
+  var contactForm = document.getElementById('nj-contact-form');
+  contactForm.addEventListener('submit', function(e){
+    e.preventDefault();
+    openModal('提交成功', '我们已收到你的信息，编辑团队会在三个工作日内通过邮箱回复。感谢你对邻街映像馆的信任。');
+    contactForm.reset();
+  });
+
+  /* ---------- 回到顶部 ---------- */
+  var topBtn = document.getElementById('nj-top-btn');
+  window.addEventListener('scroll', function(){
+    if(window.scrollY > 520){
+      topBtn.classList.add('show');
+    } else {
+      topBtn.classList.remove('show');
+    }
+  });
+  topBtn.addEventListener('click', function(){
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+
+  /* ---------- 数字滚动（首屏数据） ---------- */
+  var stats = document.querySelectorAll('.nj-hero-stats b');
+  var animated = false;
+  function animateStats(){
+    if(animated) return;
+    var rect = document.querySelector('.nj-hero-stats').getBoundingClientRect();
+    if(rect.top < window.innerHeight - 60){
+      animated = true;
+      Array.prototype.forEach.call(stats, function(el){
+        var raw = el.textContent;
+        var target = parseFloat(raw.replace(/[^\d.]/g, ''));
+        if(isNaN(target)) return;
+        var suffix = raw.replace(/[\d.,]/g, '');
+        var startTime = null;
+        var duration = 1200;
+        function step(ts){
+          if(!startTime) startTime = ts;
+          var p = Math.min((ts - startTime) / duration, 1);
+          var val = Math.floor(target * p);
+          if(target >= 1000){
+            el.textContent = val.toLocaleString('zh-CN') + suffix;
+          } else {
+            el.textContent = val + suffix;
+          }
+          if(p < 1) requestAnimationFrame(step);
+          else el.textContent = raw;
+        }
+        requestAnimationFrame(step);
+      });
+    }
+  }
+  window.addEventListener('scroll', animateStats);
+  animateStats();
+
+})();
+</script>
+</body>
+              </html>
